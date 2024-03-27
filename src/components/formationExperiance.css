@@ -1,0 +1,13 @@
+.grid_item{
+    margin-bottom: 0;
+}
+.grid_date{
+    font-weight: 0;
+}
+.grid_title{
+    margin-bottom: 0;
+}
+.grid_location{
+    font-weight: 300;
+    color: blue;
+}

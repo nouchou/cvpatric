@@ -1,0 +1,146 @@
+header {
+  position: relative;
+}
+
+header .top-menu {
+  position: absolute;
+  top: 0px;
+  height: 107px;
+  background: rgba(255, 255, 255, .5); ;
+  width: 100%;
+}
+header  .top-menu .menu-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header .top-menu ul{
+  list-style: none;
+}
+
+header .logo-container {
+  float: left;
+}
+
+header .logo-container .logo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 100%;
+  background: url(/images/logo.jpg) -5px -6px;
+  background-size: 110%;
+  float: left;
+
+}
+header .logo-container .logo-description {
+  float: left;
+  margin-left: 15px;
+  font-size: 21px;
+}
+header .logo-container .logo-description p{
+  margin: 15px 0;
+
+}
+header .top-menu .navbar {
+  float: right;
+  margin-top: 30px;
+}
+
+header .top-menu .navbar ul.nav li{
+ float: left;
+  margin-right: 15px;
+}
+header .top-menu .navbar ul.nav li a{
+  color: #000000;
+}
+header .top-menu .navbar ul.nav li a:hover{
+  color: #bcbcbc;
+}
+
+header .printit {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  color: #ffffff;
+  padding: 5px 10px;
+  background: #2daf39;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+header .video-container {
+  max-width: 100%;
+}
+
+header .video-container video {
+  max-width: 100%;
+}
+
+header .jumbotron {
+  position: absolute;
+  top: 50%;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+section {
+  max-width:1100px;
+  margin: 0 auto;
+}
+section.about {
+  font-size: 20px;
+  padding: 25px 0;
+}
+
+section.contacts .green-line {
+  background: #2daf39;
+  color: #ffffff;
+  border-radius: 50px;
+  margin: 0 -50px;
+  padding: 0px 50px;
+}
+section.contacts .green-line h2 {
+  margin: 0;
+}
+section.contacts ul.contacts-list {
+  display: inline;
+  list-style: none;
+}
+section.contacts ul.contacts-list li {
+  float: left;
+  
+}
+h2{
+display: flex;
+align-items: center;
+margin-bottom: 2pc;
+font-size: var(--h2-font-size);
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+ul{
+  padding: 1.3rem;
+
+}
+li{
+  margin-bottom: var(--spacing-2);
+}
+
+.grid_row{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0;
+}
+body{
+  margin: 0 auto;
+}
+.circle{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+  border-radius: 50%;
+  background-color: var(--circule-color);
+}
